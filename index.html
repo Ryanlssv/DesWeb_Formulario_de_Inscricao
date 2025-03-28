@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <br>
+    <main style="margin-left: 40%;" >
+        <h1><strong>FORMULARIO DE CADASTRO</strong></h1>
+        <form style="text-align: justify;" action="#" method="post">
+            <label for="Nome">Nome: </label>
+            <input required id="Nome" type="text"><br><br>
+            <label for="Email">Email: </label>
+            <input required id="Email" type="email"><br><br>
+            <label for="Tel">Telefone:</label>
+            <input required id="Tel" type="tel"><br><br>
+            <label for="Nome">Data de nacimento: </label>
+            <input required id="Nome" type="date"><br><br>
+            <label for="G">Genero: </label>
+            <input required id="M"  name="G"  type="radio">
+            <label for="M">Masculino </label>
+            <input required name="G" id="F" value="F" type="radio">
+            <label for="F">Feminino </label><br><br>
+            <label for="tipo_inscricao">Tipo de Inscrição:</label>
+            <select id="tipo_inscricao" name="tipo_inscricao" required>
+            <option value="palestrante">Palestrante</option>
+            <option value="participante">Participante</option>
+            <option value="voluntario">Voluntário</option>
+        </select><br><br>
+            <label for="M">Mensagem:</label><br>
+            <textarea name="M" id="M" rows="4" cols="50" maxlength="200" ></textarea><br><br>
+            <input required type="submit"><br><br>
+            <button type="reset">Limpar</button>
+        
+        </form>
+    </main> 
+</body>
+</html>
